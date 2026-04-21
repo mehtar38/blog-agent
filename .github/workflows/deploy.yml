@@ -9,6 +9,10 @@ permissions:
   pages: write
   id-token: write
 
+defaults:
+  run: 
+    working-directory: blog-agent
+
 jobs:
   build:
     runs-on: ubuntu-latest
